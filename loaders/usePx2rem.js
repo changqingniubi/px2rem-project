@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: changqing
  * @Date: 2021-04-29 13:52:51
- * @LastEditTime: 2021-05-02 11:35:56
+ * @LastEditTime: 2021-05-02 16:23:45
  * @LastEditors: changqing
  * @Usage: 
  */
@@ -22,23 +22,20 @@ let cssText = `
 let newCSS = px2rem.generateRem(cssText);
 console.log(newCSS);
 
-/**
-[
-  {
-    "type": "rule",
-    "selectors": ["#root"],
-    "declarations": [
-      {
-        "type": "declaration",
-        "property": "width",
-        "value": "750px"
-      },
-      {
-        "type": "declaration",
-        "property": "height",
-        "value": "750px"
-      }
-    ]
-  }
-]
-*/
+// #root {
+//   width: 10rem;
+//   height: 10rem;
+//   border: 1px solid #ddd;
+// }
+
+// [data-dpr="1"] #root {
+//   font-size: 6px;
+// }
+
+// [data-dpr="2"] #root {
+//   font-size: 12px;
+// }
+
+// [data-dpr="3"] #root {
+//   font-size: 18px;
+// }
