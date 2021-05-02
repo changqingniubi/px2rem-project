@@ -1,0 +1,8 @@
+#root{
+  width:750px;
+  height:750px;
+  background-color: red;
+  font-size:12px;/*px*/
+  border: 1px solid #ddd; /*no*/
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
